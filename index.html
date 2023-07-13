@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- main container -->
+        <div class="mainContainer">
+            <!-- calc wrapper -->
+            <div class="calcWrapper">
+
+                <!-- calc top -->
+                <div class="calcTop">
+
+                    <!-- answer cell -->
+                    <div id="answerCell" class="answerCell">
+                        
+                    </div>
+
+                </div>
+
+                <!-- calc bottom -->
+                <div class="calcBottom">
+
+                    <!-- left column -->
+                    <div class="leftColumn">
+
+                        <!-- 7 -->
+                        <div class="btnCell">
+                            <button class="btn" onclick="uploadToScreen('7')">7</button>
+                        </div>
+
+                        <!-- 4 -->
+                        <div class="btnCell">
+                            <button class="btn" onclick="uploadToScreen('4')">4</button>
+                        </div>
+
+                        <!-- 1 -->
+                        <div class="btnCell">
+                            <button class="btn" onclick="uploadToScreen('1')">1</button>
+                        </div>
+
+                        <!-- 0 -->
+                        <div class="btnCell">
+                            <button class="btn" onclick="uploadToScreen('0')">0</button>
+                        </div>
+                    
+                    <!-- end left column -->
+                    </div>
+
+                    <!-- left middle column -->
+                    <div class="leftMiddleColumn">
+
+                        <!-- 8 -->
+                        <div class="btnCell">
+                            <button class="btn" onclick="uploadToScreen('8')">8</button>
+                        </div>
+
+                        <!-- 5 -->
+                        <div class="btnCell">
+                            <button class="btn" onclick="uploadToScreen('5')">5</button>
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="btnCell">
+                            <button class="btn" onclick="uploadToScreen('2')">2</button>
+                        </div>
+
+                        <!-- period -->
+                        <div class="btnCell">
+                            <button class="btnClr" onclick="clearScreen()">C</button>
+                        </div>
+
+                    <!-- end left middle column -->
+                    </div>
+
+                    <!-- right middle column -->
+                    <div class="rightMiddleColumn">
+
+                        <!-- 9 -->
+                        <div class="btnCell">
+                            <button class="btn" onclick="uploadToScreen('9')">9</button>
+                        </div>
+
+                        <!-- 6 -->
+                        <div class="btnCell">
+                            <button class="btn" onclick="uploadToScreen('6')">6</button>
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="btnCell">
+                            <button class="btn" onclick="uploadToScreen('3')">3</button>
+                        </div>
+
+                        <!-- = -->
+                        <div class="btnCell">
+                            <button class="btn" onclick="splitInput()">=</button>
+                        </div>
+
+                    <!-- end right middle column -->
+                    </div>
+
+                    <!-- right column -->
+                    <div class="rightColumn">
+
+                        <!-- divide -->
+                        <div class="btnCell">
+                            <button class="btn" onclick="uploadToScreen('/')">/</button>
+                        </div>
+
+                        <!-- multiply -->
+                        <div class="btnCell">
+                            <button class="btn" onclick="uploadToScreen('x')">X</button>
+                        </div>
+
+                        <!-- subtract -->
+                        <div class="btnCell">
+                            <button class="btn" onclick="uploadToScreen('-')">-</button>
+                        </div>
+
+                         <!-- add -->
+                         <div class="btnCell">
+                            <button class="btn" onclick="uploadToScreen('+')">+</button>
+                         </div>
+
+                    <!-- end right column -->
+                    </div>
+
+                <!-- end calc bottom -->
+                </div>
+
+            <!-- end calc wrapper -->
+            </div>
+
+        <!-- end main container -->
+        </div>
+        
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,142 @@
+
+body{
+    background-color: tan;
+}
+
+.mainContent{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.calcWrapper{
+    border: solid black;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: gray;
+    box-shadow: inset 0 0 20px black;
+    
+}
+
+.calcTop{
+    height: 75px;
+}
+
+.answerCell{
+    border: solid black;
+    height: 80%;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    background-color: rgb(44, 143, 83);
+    color: black;
+    box-shadow: 0 0 15px black, inset 0 0 20px black;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 52px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-weight: bold;
+}
+
+.calcBottom{
+    height: 300px;
+    display: flex;
+}
+
+.leftColumn{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.leftMiddleColumn{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.rightMiddleColumn{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.rightColumn{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.btnCell {
+    height: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 90%;
+    height: 90%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(24, 24, 24);
+    color: whitesmoke;
+    box-shadow: 0 0 10px black, inset 0 0 5px rgb(144, 144, 144);
+}
+
+.btn:hover {
+    width: 90%;
+    height: 90%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(51, 51, 51);
+    color: whitesmoke;
+    box-shadow: inset 0 0 5px rgb(144, 144, 144);
+}
+
+.btnClr {
+    width: 90%;
+    height: 90%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(81, 18, 18);
+    color: whitesmoke;
+    box-shadow: inset 0 0 5px rgb(144, 144, 144);
+}
+
+.btnClr:hover {
+    width: 90%;
+    height: 90%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(121, 14, 14);
+    color: whitesmoke;
+    box-shadow: inset 0 0 5px rgb(144, 144, 144);
+}
